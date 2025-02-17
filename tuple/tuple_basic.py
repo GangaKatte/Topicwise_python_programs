@@ -1,0 +1,7 @@
+a=("Ganga","Ishu",20,21,"Imishu",28.00)
+b=(50,40,50,89,10)
+print(a)
+print(a.count(20))
+print(a.index(20))
+print(sorted(b))
+print(sum(b))
