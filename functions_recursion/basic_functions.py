@@ -31,3 +31,8 @@ def details(**data):
         print(f"{key} : {value}")
         
 details(name="G",age=12)        
+
+#Higher-Order Functions (Function Taking Another Function)
+nums = [1, 2, 3, 4]
+squared = list(map(lambda x: x**2, nums))
+print(squared)  # Output: [1, 4, 9, 16]
